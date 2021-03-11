@@ -1,18 +1,18 @@
 newmtl aiStandardSurface1SG
 illum 4
-Kd 0.00 0.00 0.00
+Kd 0.00 100.00 50.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 0.00
 newmtl aiStandardSurface3SG
 illum 4
-Kd 0.00 0.00 0.00
+Kd 1.00 1.00 1.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 0.00
 newmtl aiStandardSurface5SG
 illum 4
-Kd 0.00 0.00 0.00
+Kd 1.00 1.00 1.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 0.00
@@ -24,7 +24,7 @@ Tf 1.00 1.00 1.00
 Ni 0.00
 newmtl crib:brownwood_littlebrown_jpg
 illum 4
-Kd 0.00 0.00 0.00
+Kd 1.00 1.00 1.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd littlebrown.jpg
@@ -53,14 +53,14 @@ Tf 1.00 1.00 1.00
 Ni 1.00
 newmtl piso_base_1SG
 illum 4
-Kd 0.00 0.00 0.00
+Kd 1.00 1.00 1.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd piso_base1.jpg
 Ni 1.00
 newmtl room:wire_000000000
 illum 4
-Kd 0.00 0.00 0.00
+Kd 1.00 1.00 1.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00

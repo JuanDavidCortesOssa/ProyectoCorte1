@@ -16,8 +16,8 @@
 
         <!-- Se carga el asset del apartamento (obj y mtl) y la textura del cielo-->
         <a-assets>
-            <a-asset-item id="casa" src="assets/Base2/Apt.obj"></a-asset-item>
-            <a-asset-item id="mtlCasa" src="assets/Base2/Apt.mtl"></a-asset-item>
+            <a-asset-item id="casa" src="assets/Base3/apto3.obj"></a-asset-item>
+            <a-asset-item id="mtlCasa" src="assets/Base3/apto3.mtl"></a-asset-item>
 
             <a-asset-item id="cuna" src="assets/Cuna/cuna.obj"></a-asset-item>
             <a-asset-item id="mtlcuna" src="assets/Cuna/cuna.mtl"></a-asset-item>
@@ -28,21 +28,34 @@
             <a-asset-item id="cama" src="assets/Cama/cama_princ.obj"></a-asset-item>
             <a-asset-item id="mtlcama" src="assets/Cama/cama_princ.mtl"></a-asset-item>
 
+            <a-asset-item id="mesita" src="assets/mesita/mesita.obj"></a-asset-item>
+            <a-asset-item id="mesitaMtl" src="assets/mesita/mesita.mtl"></a-asset-item>
+
+            <a-asset-item id="isla" src="assets/Isla_cocina/isla.obj"></a-asset-item>
+            <a-asset-item id="islaMtl" src="assets/Isla_cocina/isla.mtl"></a-asset-item>
+
+            <a-asset-item id="lamparas" src="assets/Lamparas/Lamparas.obj"></a-asset-item>
+            <a-asset-item id="lamparasMtl" src="assets/Lamparas/Lamparas.mtl"></a-asset-item>
+
         </a-assets>
 
         <!-- Se agregan físicas a la cámara-->
-        <a-entity id="rig" movement-controls kinematic-body>
+        <a-entity id="rig" movement-controls="constrainToNavMesh: true">
             <a-entity camera
                           position="0 0.6 0"
-                          look-controls="pointerLockEnabled: true"></a-entity>
+                          look-controls="pointerLockEnabled: true"
+                          ></a-entity>
             </a-entity>
 
         <!-- Se crea la entidad que contiene el obj y el mtl, se escala y se le agregan colisiones-->  
         <a-entity obj-model="obj: #casa; mtl: #mtlCasa" scale="0.1, 0.1, 0.1" position="0 0 0" ></a-entity>
-        <a-entity obj-model="obj: #cuna; mtl: #mtlcuna" scale="1, 1, 1" position="-3.126 1.391 1.254" ></a-entity>
+        <a-entity obj-model="obj: #cuna; mtl: #mtlcuna" scale="1, 0.538, 0.715" position="-3.291 1.391 1.946" ></a-entity>
         <a-entity obj-model="obj: #cortina; mtl: #mtlcortina" scale="0.5, 0.5, 0.5" position="-2.327 1.495 -1.502" rotation="0 90 0"></a-entity>
-        <a-entity obj-model="obj: #cama; mtl: #mtlcama" scale="1, 1, 1" position="0 0 0" ></a-entity>
-
+        <a-entity obj-model="obj: #cama; mtl: #mtlcama" scale="0.390, 0.390, 0.390" rotation="0 90 0" position="-0.622 1.464 -1.244" ></a-entity>
+        <a-entity obj-model="obj: #mesita; mtl: #mesitaMtl" scale="0.1, 0.1, 0.1" position="0 0 0" ></a-entity>
+        <a-entity obj-model="obj: #lamparas; mtl: #lamparasMtl" scale="0.010, 0.010, 0.010" position="-3.219 1.707 1.112" ></a-entity>
+        
+        
         <!-- Se carga el ambiente: Sonido y textura del cielo-->
         <a-sound src="Assets/Sonidos/Ambiente.mp3" autoplay="true" position="0 2 5" loop: true volume: 5></a-sound>
         <a-sky src= "#skyTexture"></a-sky>
@@ -60,7 +73,13 @@
           position="0.027 0.4 -0.483"></a-entity>
         <a-entity light="type: directional; color: white; intensity: 0.6" position="5 1 3"></a-entity>
         <a-entity light="type: ambient; color: white; intensity: 0.4" position="10 10 2"></a-entity>
-        <a-plane color="black" scale="50 50 1" rotation="-90 0 0" static-body position="0 0 0"></a-plane> 
+
+        <!-- Se agrega el plano principal-->
+        <a-plane color="black" scale="50 50 1" rotation="-90 0 0" static-body position="0 -0.5 0"></a-plane> 
+
+        <!-- Se agregan objetos para colisionar-->
+        <a-plane color="red" width="7.460" height="2.680" depth="0.140" position="0.049 1.409 5" 
+        static-body="shape: plane; mass: 0; halfExtents: 0.1 0.1 0.1" ></a-plane>
         
     </a-scene>    
 </body>

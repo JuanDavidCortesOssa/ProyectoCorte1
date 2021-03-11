@@ -9,11 +9,11 @@ que mediante este podran vivir,usar, e interactuar son unicas la cual no todo el
 
 
 Nuestro proyecto VR te brinda un recorrido por el apartamento de tus sueños, con un diseño exclusivo como lo has imaginado y planteado 
-desde hace mucho timepo, este apartamento  es ideal para dos personas tipo loft de estrado 6, lo mnejor de todo es que podras recorrer cada rincos, cada espacio
-de tu apartamento ideal al ritmo de la musica que te acompañara en tu recorrido.
+desde hace mucho timepo, este apartamento  es ideal para dos personas tipo loft de estrado 6, lo mejor de todo es que podras recorrer cada rincon, 
+cada espacio de tu apartamento ideal al ritmo de la musica que te acompañara en tu recorrido.
 
-Para nuestro apartamento modelado y exclusivamente modelado, podras encontrar en el primer piso la sala, cocina, a cambio de estas podras ver
-diferentes variedades de acomodaciones del como pede ir tu casa, Nuestra sala cuenta con una mesa de centro,televisor y un sofá. 
+Para nuestro apartamento y exclusivamente modelado, podras encontrar en el primer piso la sala, cocina, en nuestra sala podras encontrar
+variedades de acomodaciones del como pede ir tu casa, Nuestra sala cuenta con una mesa de centro,televisor y un sofá. 
 
 Al ir al segundo piso del apartamento se encuentran dos habitaciones.
 

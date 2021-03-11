@@ -16,6 +16,8 @@
 
         <!-- Se carga el asset del apartamento (obj y mtl) y la textura del cielo-->
         <a-assets>
+            <img id="skyTexture" src="Assets/360/the-night-sky.jpeg">
+
             <a-asset-item id="casa" src="assets/APARTAMENTO/APARTAMENTICO.obj"></a-asset-item>
             <a-asset-item id="mtlCasa" src="assets/APARTAMENTO/APARTAMENTICO.mtl"></a-asset-item>
 
@@ -74,8 +76,8 @@
         <a-entity obj-model="obj: #SillaDos; mtl: #SillaDosMtl" scale="0.167, 0.167, 0.167" position="-1.222 1.419 0.992" rotation="-180.000 2.370 -180.000"></a-entity>    
 
         <!-- Se carga el ambiente: Sonido y textura del cielo-->
-        <a-sound src="Assets/Sonidos/Ambiente.mp3" autoplay="true" position="0 2 5" loop: true volume: 5></a-sound>
-        <a-sky src= "#skyTexture"></a-sky>
+        <a-sound src="Assets/Sonidos/Ambiente.mp3" autoplay="true" position="0 2 5" loop: true volume="10"></a-sound>
+        <a-sky src="#skyTexture"></a-sky>
 
         <!-- Se agregan luces-->
         <a-entity light="type: point; intensity: 0.20; distance: 50; decay: 2"

@@ -21,3 +21,5 @@ colocamos un ambiente externo cuenta con un cielo nocturno con una vista excepci
 
 No te pierdas esta gran oportunidad de hacer parte de esete fabuloso recorrido por la casa de tus sueños!! 
 
+Recuarda que mediante los cubos rojos te modras mover de una forma mas dinamica y divertida, 
+por los alrrededores del apartamento. 

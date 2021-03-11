@@ -4,3 +4,4 @@ En el primer piso del apartamento se puede encontrar la sala, la cual cuenta con
 centro, un sofá y televisor. Podemos encontrar también una cocina.
 En el segundo piso del apartamento se encuentran dos habitaciones.
 El ambiente externo cuenta con un cielo nocturno en una ciudad moderna y contiene música de fondo.
+Ademas podra navegar con los cubos rojos para poder teletransportarse mediante el apartamento de una forma mas fácil y rápida.   

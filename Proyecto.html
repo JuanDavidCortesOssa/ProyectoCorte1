@@ -17,6 +17,8 @@
         <!-- Se carga el asset del apartamento (obj y mtl) y la textura del cielo-->
         <a-assets>
             <img id="skyTexture" src="Assets/360/the-night-sky.jpeg">
+            <video  id="videoTV" autoplay loop="true" src="assets/videos/RV.mp4"></video>
+
 
             <a-asset-item id="casa" src="assets/APARTAMENTO/APARTAMENTICO.obj"></a-asset-item>
             <a-asset-item id="mtlCasa" src="assets/APARTAMENTO/APARTAMENTICO.mtl"></a-asset-item>
@@ -83,9 +85,13 @@
         <a-entity obj-model="obj: #Sillon; mtl: #SillonMtl" scale="0.0008, 0.0005, 0.0008" position="3.006 0 -1.382" ></a-entity>
         <a-entity obj-model="obj: #tv; mtl: #tvMtl" scale="0.12, 0.12, 0.12" position="2.474 0.299 1.353" rotation="-180.000 -11.007 -180.000"></a-entity>
         <a-box color="grey" position="2.474 0 1.353" width="1.5" height="0.6" depth="0.3"> </a-box>    
+        
         <!-- Se carga el ambiente: Sonido y textura del cielo-->
         <a-sound src="Assets/Sonidos/Ambiente.mp3" autoplay="true" position="0 2 5" loop: true volume="10"></a-sound>
         <a-sky src="#skyTexture"></a-sky>
+
+        <a-video src="#videoTV"  width="16" height="9" scale="0.040, 0.040, 0.040" position="2.474 0.539 1.353" rotation="-180.000 -11.007 -180.000" ></a-video>
+
 
         <!-- Se agregan luces-->
         <a-entity light="type: point; intensity: 0.20; distance: 50; decay: 2"

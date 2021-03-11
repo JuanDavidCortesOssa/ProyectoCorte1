@@ -1,5 +1,4 @@
 # ProyectoCorte1
-
 Hemos realizado un Proyecto unico, el cual podran interactuar en el cualquier tipo de persona, 
 este proyecto se creo con el fin de que todos nuestros usarios puedan vivir una experiencia unica e inimgualable mediante lo que es 
 la realidad virtual, siendo uno de los métodos menos vistos y mas divertidos ante todo el publico.
@@ -21,3 +20,4 @@ Para darle un toque mas moderno, que nuestros usuarios puedan estar más agustos
 colocamos un ambiente externo cuenta con un cielo nocturno con una vista excepcional a nuestra ciudad moderna.
 
 No te pierdas esta gran oportunidad de hacer parte de esete fabuloso recorrido por la casa de tus sueños!! 
+

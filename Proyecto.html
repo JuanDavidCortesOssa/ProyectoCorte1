@@ -16,8 +16,8 @@
 
         <!-- Se carga el asset del apartamento (obj y mtl) y la textura del cielo-->
         <a-assets>
-            <a-asset-item id="casa" src="assets/BASEFINAL/Apartamento.obj"></a-asset-item>
-            <a-asset-item id="mtlCasa" src="assets/BASEFINAL/Apartamento.mtl"></a-asset-item>
+            <a-asset-item id="casa" src="assets/BASESITA/APARTA.obj"></a-asset-item>
+            <a-asset-item id="mtlCasa" src="assets/BASESITA/APARTA.mtl"></a-asset-item>
 
             <a-asset-item id="cuna" src="assets/Cuna/cuna.obj"></a-asset-item>
             <a-asset-item id="mtlcuna" src="assets/Cuna/cuna.mtl"></a-asset-item>
@@ -37,6 +37,18 @@
             <a-asset-item id="lamparas" src="assets/Lamparas/Lamparas.obj"></a-asset-item>
             <a-asset-item id="lamparasMtl" src="assets/Lamparas/Lamparas.mtl"></a-asset-item>
 
+            <a-asset-item id="puerta" src="assets/puerta/puerta.obj"></a-asset-item>
+            <a-asset-item id="puertaMtl" src="assets/puerta/puerta.mtl"></a-asset-item>
+
+            <a-asset-item id="mesa_tv" src="assets/Mesa_tv/mesa_tv.obj"></a-asset-item>
+            <a-asset-item id="mesa_tvMtl" src="assets/Mesa_tv/mesa_tv.mtl"></a-asset-item>
+
+            <a-asset-item id="planta" src="assets/Planta/planta.obj"></a-asset-item>
+            <a-asset-item id="plantaMtl" src="assets/Planta/planta.mtl"></a-asset-item>
+
+            <a-asset-item id="SillaDos" src="assets/SillaDos/SillaDos.obj"></a-asset-item>
+            <a-asset-item id="SillaDosMtl" src="assets/SillaDos/SillaDos.mtl"></a-asset-item>
+
         </a-assets>
 
         <!-- Se agregan físicas a la cámara-->
@@ -52,10 +64,14 @@
         <a-entity obj-model="obj: #cuna; mtl: #mtlcuna" scale="1, 0.538, 0.715" position="-3.291 1.391 1.946" ></a-entity>
         <a-entity obj-model="obj: #cortina; mtl: #mtlcortina" scale="0.5, 0.5, 0.5" position="-2.327 1.495 -1.502" rotation="0 90 0"></a-entity>
         <a-entity obj-model="obj: #cama; mtl: #mtlcama" scale="0.390, 0.390, 0.390" rotation="0 90 0" position="-0.622 1.464 -1.244" ></a-entity>
-        <a-entity obj-model="obj: #mesita; mtl: #mesitaMtl" scale="0.1, 0.1, 0.1" position="0 0 0" ></a-entity>
+        <a-entity obj-model="obj: #mesita; mtl: #mesitaMtl" scale="0.1, 0.1, 0.1" position="2.199 0.169 0.000" ></a-entity>
         <a-entity obj-model="obj: #lamparas; mtl: #lamparasMtl" scale="0.010, 0.010, 0.010" position="-3.219 1.707 1.112" ></a-entity>
-        <a-entity obj-model="obj: #cocina; mtl: #cocinaMtl" scale="0.1, 0.1, 0.1" position="0 0 0" ></a-entity>
-        
+        <a-entity obj-model="obj: #cocina; mtl: #cocinaMtl" scale="0.1, 0.1, 0.1" position="0 0 -0.610" ></a-entity>
+        <a-entity obj-model="obj: #puerta; mtl: #puertaMtl" scale="0.5, 0.5, 0.5" position="0 0 0" rotation="0 90 0"></a-entity>
+        <a-entity obj-model="obj: #mesa_tv; mtl: #mesa_tvMtl" scale="0.1, 0.1, 0.1" position="2.311 0 -0.147" ></a-entity>
+        <a-entity obj-model="obj: #planta; mtl: #plantaMtl" scale="0.167, 0.167, 0.167" position="1.322 -0.024 -1.463" ></a-entity>
+        <a-entity obj-model="obj: #SillaDos; mtl: #SillaDosMtl" scale="0.167, 0.167, 0.167" position="-1.222 1.419 0.992" rotation="-180.000 2.370 -180.000"></a-entity>    
+
         <!-- Se carga el ambiente: Sonido y textura del cielo-->
         <a-sound src="Assets/Sonidos/Ambiente.mp3" autoplay="true" position="0 2 5" loop: true volume: 5></a-sound>
         <a-sky src= "#skyTexture"></a-sky>

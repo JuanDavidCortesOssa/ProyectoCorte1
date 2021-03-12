@@ -10,30 +10,21 @@
     <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
-<<<<<<< HEAD
-=======
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
     <script src="https://raw.githack.com/thedart76/aframe-blink-teleportation/master/js/aframe-blink-teleportation-min.js"></script>
 
 
->>>>>>> juancamilo
 </head>
 <body>
     <a-scene>
 
         <!-- Se carga el asset del apartamento (obj y mtl) y la textura del cielo-->
         <a-assets>
-<<<<<<< HEAD
-            <a-asset-item id="casa" src="assets/Base3/apto3.obj"></a-asset-item>
-            <a-asset-item id="mtlCasa" src="assets/Base3/apto3.mtl"></a-asset-item>
-=======
             <img id="skyTexture" src="Assets/360/the-night-sky.jpeg">
             <video  id="videoTV" autoplay loop="true" src="assets/videos/RV.mp4"></video>
 
-
             <a-asset-item id="casa" src="assets/APARTAMENTO/APARTAMENTICO.obj"></a-asset-item>
             <a-asset-item id="mtlCasa" src="assets/APARTAMENTO/APARTAMENTICO.mtl"></a-asset-item>
->>>>>>> juancamilo
 
             <a-asset-item id="cuna" src="assets/Cuna/cuna.obj"></a-asset-item>
             <a-asset-item id="mtlcuna" src="assets/Cuna/cuna.mtl"></a-asset-item>
@@ -44,10 +35,6 @@
             <a-asset-item id="cama" src="assets/Cama/cama_princ.obj"></a-asset-item>
             <a-asset-item id="mtlcama" src="assets/Cama/cama_princ.mtl"></a-asset-item>
 
-<<<<<<< HEAD
-            <a-asset-item id="cama" src="assets/Cama/cama_princ.obj"></a-asset-item>
-            <a-asset-item id="mtlcama" src="assets/Cama/cama_princ.mtl"></a-asset-item>
-=======
             <a-asset-item id="mesita" src="assets/mesita/mesita.obj"></a-asset-item>
             <a-asset-item id="mesitaMtl" src="assets/mesita/mesita.mtl"></a-asset-item>
 
@@ -74,28 +61,10 @@
 
             <a-asset-item id="tv" src="assets\TV\televisor.obj"></a-asset-item>
             <a-asset-item id="tvMtl" src="assets\TV\televisor.mtl"></a-asset-item>
->>>>>>> juancamilo
 
         </a-assets>
 
         <!-- Se agregan físicas a la cámara-->
-<<<<<<< HEAD
-        <a-entity id="rig" movement-controls kinematic-body>
-            <a-entity camera
-                          position="0 0.6 0"
-                          look-controls="pointerLockEnabled: true"></a-entity>
-            </a-entity>
-
-        <!-- Se crea la entidad que contiene el obj y el mtl, se escala y se le agregan colisiones-->  
-        <a-entity obj-model="obj: #casa; mtl: #mtlCasa" scale="0.1, 0.1, 0.1" position="0 0 0" ></a-entity>
-        <a-entity obj-model="obj: #cuna; mtl: #mtlcuna" scale="1, 1, 1" position="-3.126 1.391 1.254" ></a-entity>
-        <a-entity obj-model="obj: #cortina; mtl: #mtlcortina" scale="0.5, 0.5, 0.5" position="-2.327 1.495 -1.502" rotation="0 90 0"></a-entity>
-        <a-entity obj-model="obj: #cama; mtl: #mtlcama" scale="1, 1, 1" position="0 0 0" ></a-entity>
-
-        <!-- Se carga el ambiente: Sonido y textura del cielo-->
-        <a-sound src="Assets/Sonidos/Ambiente.mp3" autoplay="true" position="0 2 5" loop: true volume: 5></a-sound>
-        <a-sky src= "#skyTexture"></a-sky>
-=======
         <a-entity id="camRig" position="9.314 -1 -0.468">
             <!-- CAMERA -->
             <a-camera id="cam" wasd-controls-enabled="false">
@@ -125,7 +94,6 @@
 
         <a-video src="#videoTV"  width="16" height="9" scale="0.040, 0.040, 0.040" position="2.474 0.539 1.353" rotation="-180.000 -11.007 -180.000" ></a-video>
 
->>>>>>> juancamilo
 
         <!-- Se agregan luces-->
         <a-entity light="type: point; intensity: 0.20; distance: 50; decay: 2"
@@ -142,13 +110,6 @@
         <a-entity light="type: ambient; color: white; intensity: 0.4" position="10 10 2"></a-entity>
 
         <!-- Se agrega el plano principal-->
-<<<<<<< HEAD
-        <a-plane color="black" scale="50 50 1" rotation="-90 0 0" static-body position="0 0 0"></a-plane> 
-
-        <!-- Se agregan objetos para colisionar-->
-        <a-plane color="red" width="7.460" height="2.680" depth="0.140" position="0.049 1.409 2.702" 
-        static-body="shape: plane; mass: 0; halfExtents: 0.1 0.1 0.1"></a-plane>
-=======
         <a-plane color="black" scale="50 50 1" rotation="-90 0 0" static-body position="0 -0.5 0"></a-plane> 
 
         <!-- Se agregan Vidrios-->
@@ -207,7 +168,6 @@
 
 
 
->>>>>>> juancamilo
         
     </a-scene>    
 </body>

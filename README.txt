@@ -1,4 +1,11 @@
 # ProyectoCorte1
+
+Grupo 1:
+Brian León
+Juan Camilo Riascos
+Juan José Borrero
+Juan David Cortés
+
 Hemos realizado un Proyecto único, con el cual podrá interactuar cualquier tipo de persona, 
 este proyecto se creó con el fin de que todos nuestros usarios puedan vivir una experiencia única 
 e inigualable mediante lo que es la realidad virtual, siendo uno de los métodos menos vistos y mas
